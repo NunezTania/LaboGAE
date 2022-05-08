@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Map;
 
-@WebServlet(name = "HelloAppEngine", value = "/datastorewrite")
+@WebServlet(name = "DatastoreWrite", value = "/datastorewrite")
 public class DatastoreWrite extends HttpServlet {
 
     @Override
